@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,12 +14,76 @@
         <h1 class="text-4xl font-bold text-amber-400">Utshab kumar ghosh</h1>
     </header>
     <main>
+        <section>
+            <div class="phone-container">
+                <div class="card w-96 bg-gray-100 shadow-xl">
+                    <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
 
     </footer>
-    <script src="./phone.js"></script>
+    <script src="./js/phone.js"></script>
 </body>
 
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunting Phone API</title>
+
+    <!-- DaisyUI + Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="text-center py-6">
+        <h1 class="text-4xl font-bold text-amber-500">Utshab Kumar Ghosh</h1>
+    </header>
+
+
+    <!-- Main -->
+    <main class="max-w-6xl mx-auto px-4">
+
+        <!-- Phone Container -->
+        <section>
+            <!-- IMPORTANT: id must match JavaScript -->
+            <div id="phone-container"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-gray-500">
+        <p>© 2026 Hunting Phone API Project</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="./js/phone.js"></script>
+
+</body>
 </html>
